@@ -1,0 +1,16 @@
+[
+  {
+    "file": "smithingplus:recipes/smithing/forlornblade.json",
+    "op": "addmerge",
+    "path": "/enable",
+    "value": false,
+    "dependsOn": [ { "modid": "smithingplus" } ]
+  },
+{
+    "file": "smithingplus:recipes/grid/forlornestoc.json",
+    "op": "addmerge",
+    "path": "/enable",
+    "value": false,
+    "dependsOn": [ { "modid": "smithingplus" } ]
+  }
+]

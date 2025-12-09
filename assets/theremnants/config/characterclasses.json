@@ -1,0 +1,185 @@
+[
+	{
+		"code": "wanderer",
+		"op": "add",
+		"traits": ["self sufficient", "powerful", "aescetic fasting", "pilferer", "relichunter", "slight build", "rushed", "carelessbutcherer"],
+		"gear": [
+			  { "type": "item", "code": "game:clothes-face-survivor"},
+			  { "type": "item", "code": "game:clothes-upperbody-great-steppe-shirt" },
+			  { "type": "item", "code": "game:clothes-lowerbody-survivor"},
+			  { "type": "item", "code": "game:clothes-foot-great-steppe-boots"},
+			  { "type": "item", "code": "game:clothes-hand-survivor"},
+			  { "type": "item", "code": "game:clothes-waist-malefactor-sash" },
+			  { "type": "item", "code": "game:clothes-shoulder-malefactor-cloak"},
+			  { "type": "item", "code": "game:poultice-linen-honey-sulfur"},
+			  { "type": "item", "code": "game:poultice-linen-honey-sulfur"},
+			  { "type": "item", "code": "game:spear-scrap-scrap"}
+		]
+	},
+	{  
+	    "code": "hedgeknight",
+		"op": "add",
+	    "traits": ["bulwark", "stalwart", "strong", "crusher", "chivalricheritage", "insatiablehunger", "bowshy", "loud" ],
+	    "gear": [	
+		     { "type": "item", "code": "game:clothes-upperbody-lackey-shirt" },
+		     { "type": "item", "code": "game:clothes-lowerbody-jailor-pants" },
+		     { "type": "item", "code": "game:clothes-foot-forlorn-shoes" },
+		     { "type": "item", "code": "game:clothes-hand-forlorn-bracer" },
+		     { "type": "item", "code": "game:clothes-waist-sturdy-belt" },
+		     { "type": "item", "code": "game:clothes-shoulder-squire-tunic"},
+			 { "type": "item", "code": "game:clothes-head-squire-hood"},
+			 { "type": "item", "code": "game:club-scrapmace-scrap"},
+			 { "type": "item", "code": "game:shield-crude"}
+	    ]
+	},
+	{  
+        "code": "serf",
+		"op": "add",
+        "traits": ["fieldhand", "butcher", "arborist", "healthy", "composter", "steady hands", "outdoorsman", "awkward stance" ],
+        "gear": [	
+           { "type": "item", "code": "game:clothes-upperbody-linen-tunic" },
+           { "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+           { "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+           { "type": "item", "code": "game:clothes-waist-linen-rope" },
+           { "type": "item", "code": "game:clothes-shoulder-peasent-kaftan"},
+           { "type": "item", "code": "game:clothes-head-shepherds-cowl"},
+		   { "type": "item", "code": "game:scythe-copper"}
+        ]
+    },
+	{
+		  "code": "ironmonger", 
+		"op": "add",
+		  "traits": ["burner", "rock hound", "gear eyed", "strong", "makeshift", "black lung", "insatiablehunger", "heavyhanded"],
+		  "gear": [	
+			   { "type": "item", "code": "game:clothes-upperbodyover-miner" },
+			   { "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			   { "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+			   { "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+			   { "type": "item", "code": "game:clothes-hand-surgeon" },
+			   { "type": "item", "code": "game:clothes-face-survivor"},
+			   { "type": "block", "code": "game:bomb-ore"},
+			   { "type": "block", "code": "game:bomb-ore"},
+			   { "type": "block", "code": "game:bomb-ore"},
+			   { "type": "block", "code": "game:bomb-ore"}	   
+		]
+	},
+	{  
+		  "code": "yeoman",
+		  "op": "add",
+		  "traits": ["seasoned archer", "quiet", "fleetfooted", "low metabolism", "bowyer", "old soldier", "farsighted", "slight build"],
+		  "gear": [	
+			   { "type": "item", "code": "game:clothes-upperbody-earth-toned-robe" },
+			   { "type": "item", "code": "game:clothes-lowerbody-surgeon" },
+			   { "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			   { "type": "item", "code": "game:clothes-waist-marketeer" },
+			   { "type": "item", "code": "game:clothes-shoulder-stained-leather-poncho"},
+			   { "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
+			   { "type": "item", "code": "game:bow-crude"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"},
+			   { "type": "item", "code": "game:arrow-flint"}
+		  ]
+		
+    },
+	{
+		"code": "woodsman",
+		"op": "add",
+		"traits": ["experienced hunter", "reaper", "forester", "ranger", "improviser", "farsighted", "outdoorsman", "underweight"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-shepherd-tunic" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-hunter-coat"},
+			{ "type": "item", "code": "game:clothes-lowerbody-surgeon" },
+			{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+			{ "type": "item", "code": "game:clothes-waist-linen-rope" },
+			{ "type": "item", "code": "game:clothes-shoulder-woolen-scarf"},
+			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
+			{ "type": "item", "code": "game:axe-scrap-scrap" },
+			{ "type": "item", "code": "game:sling" }
+		]
+	},
+	{
+		"code": "guildsman",
+		"op": "add",
+		"traits": ["tailored fit", "low metabolism", "eye for value", "fleetfooted", "clothier", "delicate", "squeamish", "unfit for war" ],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-marketeer" },
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-scribe" },
+			{ "type": "item", "code": "game:clothes-waist-alchemist" },
+			{ "type": "item", "code": "game:clothes-hand-scribe" },
+			{ "type": "item", "code": "game:clothes-head-minstrel-hat"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"},
+			{ "type": "item", "code": "game:gear-rusty"}
+			
+		]
+	},
+	{
+		"code": "malefactor",
+		"op": "add",
+		"traits": ["vagabond", "looter", "fleetfooted", "furtive", "packrat", "delicate", "farsighted", "awkward stance" ],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
+			{ "type": "item", "code": "game:clothes-face-malefactor-mask" },
+			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" },
+			{ "type": "item", "code": "game:clothes-waist-peasant-strap" },
+			{ "type": "item", "code": "game:clothes-shoulder-miner"},
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
+			{ "type": "item", "code": "game:knife-generic-copper" }
+		]
+	},
+	{
+		"code": "gearsmith",
+		"op": "add",
+		"traits": ["technical", "gearworker", "healthy", "precise", "tinkerer","machinist", "high metabolism", "bowshy", "tinnitus" ],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-linen-tunic" },
+			{ "type": "item", "code": "game:clothes-face-survivor"},
+			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
+			{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+			{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" },
+			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron"},
+			{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+			{ "type": "block", "code": "game:bomb-scrap" },
+			{ "type": "block", "code": "game:bomb-scrap" },
+			{ "type": "block", "code": "game:bomb-scrap" },
+			{ "type": "item", "code": "game:scrapweaponkit" }
+		]
+	},
+	{
+		"code": "blackguard",
+		"op": "add",
+		"traits": ["reaver", "quick step", "hulking", "hardy", "merciless", "voracious", "reckless", "heavyhanded" ],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic"},
+			{ "type": "item", "code": "game:clothes-lowerbody-marketeer" },
+			{ "type": "item", "code": "game:clothes-foot-high-leather-boots" },
+			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" },
+			{ "type": "item", "code": "game:clothes-hand-surgeon"},
+			{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask"},
+			{ "type": "item", "code": "game:blade-scrap-scrap" },
+			{ "type": "item", "code": "game:bandage-clean" },
+			{ "type": "item", "code": "game:bandage-clean" }
+		]
+	}
+	
+
+
+
+
+	
+]

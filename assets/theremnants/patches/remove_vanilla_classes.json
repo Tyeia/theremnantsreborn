@@ -1,0 +1,37 @@
+[
+    {
+		"side": "universal",
+		"op": "AddMerge",
+		"file": "game:config/characterclasses",
+		"path": "/1/enabled",
+        "value": false
+	},
+    {
+		"side": "universal",
+		"op": "addMerge",
+		"file": "game:config/characterclasses",
+		"path": "/2/enabled",
+        "value": false
+	},
+    {
+		"side": "universal",
+		"op": "addMerge",
+		"file": "game:config/characterclasses",
+		"path": "/3/enabled",
+        "value": false
+	},
+    {
+		"side": "universal",
+		"op": "addMerge",
+		"file": "game:config/characterclasses",
+		"path": "/4/enabled",
+        "value": false
+	},
+    {
+		"side": "universal",
+		"op": "addMerge",
+		"file": "game:config/characterclasses",
+		"path": "/5/enabled",
+        "value": false
+	}
+]

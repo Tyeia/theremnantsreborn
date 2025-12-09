@@ -1,0 +1,10 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-*", "name": "metal", "allowedVariants": ["meteoriciron"] },
+	"pattern": [[
+		"____########__",
+		"_#############",
+		"____########__"
+	]],
+	"name": "Estoc Blade",
+	"output": { "type": "item", "code": "bladehead-forlorn-short-meteoriciron"}
+}

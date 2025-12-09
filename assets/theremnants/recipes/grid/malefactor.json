@@ -1,0 +1,28 @@
+[
+	{
+		"ingredientPattern": "LLL,LLL,STS",
+		"requiresTrait": "packrat",
+		"ingredients": {
+			"L": { "type": "item", "code": "game:cattailtops", "quantity": 3 },
+			"T": { "type": "item", "code": "game:flaxtwine", "quantity": 3 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"name": "wickerpack",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "wickerpack"  }
+	},
+	{
+		"ingredientPattern": "PPP,PPP,STS",
+		"requiresTrait": "packrat",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 3 },
+			"T": { "type": "item", "code": "game:flaxtwine", "quantity": 3 },
+			"S": { "type": "item", "code": "game:stick", "quantity": 2 }
+		},
+		"name": "wickerpack",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "wickerpack"  }
+	}
+]

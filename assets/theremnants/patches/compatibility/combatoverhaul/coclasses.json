@@ -1,0 +1,72 @@
+[
+    {
+        "op": "replace",
+        "path": "/0/traits",
+        "value": ["self sufficient", "powerful", "aescetic fasting", "pilferer", "relichunter", "slight build", "rushed", "carelessbutcherer", "oneHandedSwordsProficiency", "spearsProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/1/traits",
+        "value": ["bulwark", "stalwart", "strong", "crusher", "chivalricheritage", "insatiablehunger", "bowshy", "loud", "halberdsProficiency", "macesProficiency", "oneHandedSwordsProficiency", "spearsProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/2/traits",
+        "value": ["fieldhand", "butcher", "arborist", "healthy", "composter", "steady hands", "outdoorsman", "awkward stance", "clubsProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/3/traits",
+        "value": ["burner", "rock hound", "gear eyed", "strong", "makeshift", "black lung", "insatiablehunger", "heavyhanded", "clubsProficiency", "macesProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/4/traits",
+        "value": ["seasoned archer", "quiet", "fleetfooted", "low metabolism", "bowyer", "old soldier", "farsighted", "slight build", "bowsProficiency", "crossbowsProficiency", "steadyAim"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/5/traits",
+        "value": ["experienced hunter", "reaper", "forester", "ranger", "improviser", "farsighted", "outdoorsman", "underweight", "javelinsProficiency", "axesProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/6/traits",
+        "value": ["tailored fit", "low metabolism", "eye for value", "fleetfooted", "clothier", "delicate", "squeamish", "unfit for war", "crossbowsProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/7/traits",
+        "value": ["vagabond", "looter", "fleetfooted", "furtive", "packrat", "delicate", "farsighted", "awkward stance", "quarterstaffProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/8/traits",
+        "value": ["technical", "gearworker", "healthy", "precise", "tinkerer","machinist", "high metabolism", "bowshy", "tinnitus", "firearmsProficiency"],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/9/traits",
+        "value": ["reaver", "quick step", "hulking", "hardy", "merciless", "voracious", "reckless", "heavyhanded", "axesProficiency", "oneHandedSwordsProficiency", "twoHandedSwordsProficiency", "clubsProficiency","canParryProjectiles" ],
+        "file": "config/characterclasses.json",
+        "dependsOn": [ { "modid": "combatoverhaul" } ]
+    }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/durabilitybytype/blade-forlorn-iron",
+    "value": 1250,
+    "file": "itemtypes/tool/blade"
+  }
+]

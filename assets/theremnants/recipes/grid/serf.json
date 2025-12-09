@@ -1,0 +1,19 @@
+[
+    {
+        "ingredientPattern": "CBC,HSH,CBC",
+        "requiresTrait": "composter",
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+            "C": {"type": "item", "code": "game:compost", "quantity": 2},
+            "B": {"type": "item", "code": "game:bonemeal", "quantity": 2},
+            "H": {"type": "item", "code": "game:powder-charcoal", "quantity": 2},
+            "S": {"type": "block", "code": "game:soil-medium-none", "quantity": 1}
+        },
+        "output": {
+            "type": "block",
+            "code": "game:soil-compost-none",
+            "quantity": 2
+        }
+    }
+]
