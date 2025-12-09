@@ -1,12 +1,4 @@
 on:
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: 'Select a tag to test'
-        required: true
-        type: choice
-        options:
-          - 'v1.0.7'
   push:
     tags:
       - "*"
