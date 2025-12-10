@@ -1,0 +1,800 @@
+[
+  {
+    "code": "evasive",
+      "type": "positive",
+	  "attributes": {
+		  "walkspeed": 0.2
+		  }
+  },
+  {
+    "code": "fast",
+      "type": "positive",
+	  "attributes": {
+		  "walkspeed": 0.15
+		  }
+  },
+  {
+    "code": "swift",
+      "type": "positive",
+	  "attributes": {
+		  "walkspeed": 0.1
+		  }
+  },
+  {
+    "code": "quick step",
+      "type": "positive",
+	  "attributes": {
+		  "walkspeed": 0.05
+		  }
+  },
+  {
+    "code": "leisurely",
+      "type": "negative",
+	  "attributes": {
+		  "walkspeed": -0.05
+		  }
+  },
+  {
+    "code": "slow",
+      "type": "negative",
+	  "attributes": {
+		  "walkspeed": -0.1
+		  }
+  },
+  {
+    "code": "slothful",
+      "type": "negative",
+	  "attributes": {
+		  "walkspeed": -0.15
+		  }
+  },
+  {
+    "code": "sluggish",
+      "type": "negative",
+	  "attributes": {
+		  "walkspeed": -0.2
+		  }
+  },
+  {
+    "code": "gear eyed",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.35
+		  }
+  },
+  {
+    "code": "gearworker",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.20,
+      "miningSpeedMul": 0.1
+
+		  }
+  },
+  {
+    "code": "gearhead",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.3
+		  }
+  },
+  {
+    "code": "gearabsorbed",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.25
+		  }
+  },
+  {
+    "code": "gearexpert",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.2
+		  }
+  },
+  {
+    "code": "gearcollector",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.15
+		  }
+  },
+  {
+    "code": "geatenthusiast",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.1
+		  }
+  },
+  {
+    "code": "gearadmirer",
+      "type": "positive",
+	  "attributes": {
+		  "rustyGearDropRate": 0.05
+		  }
+  },
+  {
+    "code": "gearinattentive",
+      "type": "negative",
+	  "attributes": {
+		  "rustyGearDropRate": -0.1
+		  }
+  },
+  {
+    "code": "gearoblivious",
+      "type": "negative",
+	  "attributes": {
+		  "rustyGearDropRate": -0.2
+		  }
+  },
+  {
+    "code": "gearcareless",
+      "type": "negative",
+	  "attributes": {
+		  "rustyGearDropRate": -0.3
+		  }
+  },
+  {
+    "code": "gearblind",
+      "type": "negative",
+	  "attributes": {
+		  "rustyGearDropRate": -0.4
+		  }
+  },
+  {
+    "code": "eagleeyed",
+      "type": "positive",
+	  "attributes": {
+		  "rangedWeaponsDamage": 0.4,
+		  "rangedWeaponsAcc": 0.3,
+		  "bowDrawingStrength": 0.2
+		  }
+  },
+  {
+    "code": "seasoned archer",
+      "type": "positive",
+	  "attributes": {
+		  "rangedWeaponsDamage": 0.3,
+		  "rangedWeaponsAcc": 0.2,
+		  "bowDrawingStrength": 0.15
+		  }
+  },
+  {
+    "code": "archer",
+      "type": "positive",
+	  "attributes": {
+		  "rangedWeaponsDamage": 0.2,
+		  "rangedWeaponsAcc": 0.1,
+		  "bowDrawingStrength": 0.1
+		  }
+  },
+  {
+    "code": "ranger",
+      "type": "positive",
+	  "attributes": {
+		  "rangedWeaponsDamage": 0.15,
+		  "rangedWeaponsAcc": 0.1,
+		  "bowDrawingStrength": 0.1
+		  }
+  },
+  {
+    "code": "amateurbowman",
+      "type": "positive",
+	  "attributes": {
+		  "rangedWeaponsDamage": 0.1,
+		  "rangedWeaponsAcc": 0.05,
+		  "bowDrawingStrength": 0.05
+		  }
+  },
+  {
+    "code": "inexperiencedbowman",
+      "type": "negative",
+	  "attributes": {
+		  "rangedWeaponsDamage": -0.1,
+		  "rangedWeaponsAcc": -0.05,
+		  "bowDrawingStrength": -0.05
+		  }
+  },
+  {
+    "code": "bowshy",
+      "type": "negative",
+	  "attributes": {
+		  "rangedWeaponsDamage": -0.2,
+		  "rangedWeaponsAcc": -0.1,
+		  "bowDrawingStrength": -0.1
+		  }
+  },
+  {
+    "code": "incompetentbowman",
+      "type": "negative",
+	  "attributes": {
+		  "rangedWeaponsDamage": -0.3,
+		  "rangedWeaponsAcc": -0.2,
+		  "bowDrawingStrength": -0.15
+		  }
+  },
+  {
+    "code": "feeblearmed",
+      "type": "negative",
+	  "attributes": {
+		  "rangedWeaponsDamage": -0.4,
+		  "rangedWeaponsAcc": -0.3,
+		  "bowDrawingStrength": -0.2
+		  }
+  },
+  {
+    "code": "masterbutcherer",
+      "type": "positive",
+	  "attributes": {
+		  "animalLootDropRate": 0.5,
+		  "animalHarvestingTime": -0.75
+		  }
+  },
+  {
+    "code": "skilledbutcherer",
+      "type": "positive",
+	  "attributes": {
+		  "animalLootDropRate": 0.35,
+		  "animalHarvestingTime": -0.5
+		  }
+  },
+  {
+    "code": "experiencedbutcherer",
+      "type": "positive",
+	  "attributes": {
+		  "animalLootDropRate": 0.2,
+		  "animalHarvestingTime": -0.3
+		  }
+  },
+  {
+    "code": "amateurbutcherer",
+      "type": "positive",
+	  "attributes": {
+		  "animalLootDropRate": 0.1,
+		  "animalHarvestingTime": -0.15
+		  }
+  },
+  {
+    "code": "butcher",
+      "type": "positive",
+	  "attributes": {
+		  "animalLootDropRate": 0.35
+		  }
+  },
+  {
+    "code": "steady hands",
+      "type": "negative",
+	  "attributes": {
+		  "animalHarvestingTime": 0.25
+		  }
+  },
+  {
+    "code": "inefficientbutcherer",
+      "type": "negative",
+	  "attributes": {
+		  "animalLootDropRate": -0.1,
+		  "animalHarvestingTime": 0.15
+		  }
+  },
+  {
+    "code": "carelessbutcherer",
+      "type": "negative",
+	  "attributes": {
+		  "animalLootDropRate": -0.2,
+		  "animalHarvestingTime": 0.3
+		  }
+  },
+  {
+    "code": "wastefulbutcherer",
+      "type": "negative",
+	  "attributes": {
+		  "animalLootDropRate": -0.35,
+		  "animalHarvestingTime": 0.5
+		  }
+  },
+  {
+    "code": "squeamish",
+      "type": "negative",
+	  "attributes": {
+		  "animalLootDropRate": -0.35,
+		  "animalHarvestingTime": 0.15
+		  }
+  },
+  {
+    "code": "mighty",
+      "type": "positive",
+	  "attributes": {
+		  "armorDurabilityLoss": -0.5,
+		  "armorWalkSpeedAffectedness": -0.5
+		  }
+  },
+  {
+    "code": "reaver",
+      "type": "positive",
+	  "attributes": {
+		  "armorWalkSpeedAffectedness": -0.5
+		  }
+  },
+  {
+    "code": "good fit",
+      "type": "positive",
+	  "attributes": {
+		  "armorDurabilityLoss": -0.25,
+		  "armorWalkSpeedAffectedness": -0.25
+		  }
+  },
+  {
+    "code": "tailored fit",
+      "type": "positive",
+	  "attributes": {
+		  "armorDurabilityLoss": -0.25
+		  }
+  },
+  {
+    "code": "underweight",
+      "type": "negative",
+	  "attributes": {
+		  "armorWalkSpeedAffectedness": 0.25
+		  }
+  },
+  {
+    "code": "reckless",
+      "type": "negative",
+	  "attributes": {
+		  "armorDurabilityLoss": 0.25,
+		  "healingeffectiveness": -0.25
+		  }
+  },
+  {
+    "code": "awkward stance",
+      "type": "negative",
+	  "attributes": {
+		  "armorDurabilityLoss": 0.25,
+		  "armorWalkSpeedAffectedness": 0.25
+		  }
+  },
+  {
+    "code": "slim",
+      "type": "negative",
+	  "attributes": {
+		  "armorDurabilityLoss": 0.5,
+		  "armorWalkSpeedAffectedness": 0.5
+		  }
+  },
+  {
+    "code": "slight build",
+      "type": "negative",
+	  "attributes": {
+		  "armorWalkSpeedAffectedness": 0.25
+		  }
+  },
+  {
+    "code": "bulwark",
+      "type": "positive",
+	  "attributes": {
+      "armorDurabilityLoss": -0.5,
+		  "armorWalkSpeedAffectedness": -0.25
+		  }
+  },
+  {
+    "code": "stalwart",
+      "type": "positive",
+	  "attributes": {
+		  "maxhealthExtraPoints": 7.5,
+      "healingeffectiveness": 0.25
+		  }
+  },
+  {
+    "code": "healthy",
+      "type": "positive",
+	  "attributes": {
+		  "maxhealthExtraPoints": 2.5
+		  }
+  },
+  {
+    "code": "old soldier",
+      "type": "negative",
+	  "attributes": {
+		  "maxhealthExtraPoints": -2.5
+		  }
+  },
+  {
+    "code": "delicate",
+      "type": "negative",
+	  "attributes": {
+		  "maxhealthExtraPoints": -5
+		  }
+  },
+  {
+    "code": "sickly",
+      "type": "negative",
+	  "attributes": {
+		  "maxhealthExtraPoints": -7.5
+		  }
+  },
+  {
+    "code": "hulk",
+      "type": "positive",
+	  "attributes": {
+		  "meleeWeaponsDamage": 0.4
+		  }
+  },
+  {
+    "code": "hulking",
+      "type": "positive",
+	  "attributes": {
+		  "meleeWeaponsDamage": 0.35
+		  }
+  },
+  {
+    "code": "burly",
+      "type": "positive",
+	  "attributes": {
+		  "meleeWeaponsDamage": 0.25
+		  }
+  },
+  {
+    "code": "strong",
+      "type": "positive",
+	  "attributes": {
+		  "meleeWeaponsDamage": 0.1
+		  }
+  },
+  {
+    "code": "powerful",
+      "type": "positive",
+	  "attributes": {
+		  "meleeWeaponsDamage": 0.15
+		  }
+  },
+  {
+    "code": "crusher",
+      "type": "positive",
+	  "attributes": {
+		  "mechanicaldamagemul": 0.15
+		  }
+  },
+  {
+    "code": "hesitant",
+      "type": "negative",
+	  "attributes": {
+		  "meleeWeaponsDamage": -0.1
+		  }
+  },
+  {
+    "code": "unfit for war",
+      "type": "negative",
+	  "attributes": {
+		  "meleeWeaponsDamage": -0.25
+		  }
+  },
+  {
+    "code": "powerless",
+      "type": "negative",
+	  "attributes": {
+		  "meleeWeaponsDamage": -0.4
+		  }
+  },
+  {
+    "code": "nomad",
+      "type": "positive",
+	  "attributes": {
+		  "forageDropRate": 0.4,
+		  "wildCropDropRate": 0.5
+		  }
+  },
+  {
+    "code": "wanderer",
+      "type": "positive",
+	  "attributes": {
+		  "forageDropRate": 0.25,
+		  "wildCropDropRate": 0.35
+		  }
+  },
+  {
+    "code": "vagabond",
+      "type": "positive",
+	  "attributes": {
+		  "forageDropRate": 0.15,
+		  "wildCropDropRate": 0.35
+		  }
+  },
+  {
+    "code": "self sufficient",
+      "type": "positive",
+	  "attributes": {
+		  "forageDropRate": 0.1,
+		  "wildCropDropRate": 0.2
+		  }
+  },
+  {
+    "code": "picky",
+      "type": "negative",
+	  "attributes": {
+		  "forageDropRate": -0.25,
+		  "wildCropDropRate": -0.35
+		  }
+  },
+  {
+    "code": "cosmopolite",
+      "type": "negative",
+	  "attributes": {
+		  "forageDropRate": -0.4,
+		  "wildCropDropRate": -0.5
+		  }
+  },
+  {
+    "code": "dwarvenroots",
+      "type": "positive",
+	  "attributes": {
+		  "oreDropRate": 0.5,
+		  "miningSpeedMul": 1
+		  }
+  },
+  {
+    "code": "experiencedminer",
+      "type": "positive",
+	  "attributes": {
+		  "oreDropRate": 0.35,
+		  "miningSpeedMul": 0.7
+		  }
+  },
+  {
+    "code": "miner",
+      "type": "positive",
+	  "attributes": {
+		  "oreDropRate": 0.25,
+		  "miningSpeedMul": 0.4
+		  }
+  },
+  {
+    "code": "rock hound",
+      "type": "positive",
+	  "attributes": {
+		  "oreDropRate": 0.15,
+		  "miningSpeedMul": 0.2
+		  }
+  },
+  {
+    "code": "speluncaphobic",
+      "type": "negative",
+	  "attributes": {
+		  "oreDropRate": -0.3,
+		  "miningSpeedMul": -0.2
+		  }
+  },
+  {
+    "code": "outdoorsman",
+      "type": "negative",
+	  "attributes": {
+		  "oreDropRate": -0.3,
+		  "rustyGearDropRate": -0.2
+		  }
+  },
+  {
+    "code": "rushed",
+      "type": "negative",
+	  "attributes": {
+		  "oreDropRate": -0.15
+		  }
+  },
+  {
+    "code": "stealthy",
+      "type": "positive",
+	  "attributes": {
+		  "animalSeekingRange": -0.5
+		  }
+  },
+  {
+    "code": "quiet",
+      "type": "positive",
+	  "attributes": {
+		  "animalSeekingRange": -0.2
+		  }
+  },
+  {
+    "code": "noisy",
+      "type": "negative",
+	  "attributes": {
+		  "animalSeekingRange": 0.2
+		  }
+  },
+  {
+    "code": "tinnitus",
+      "type": "negative",
+	  "attributes": {
+		  "animalSeekingRange": 0.2
+		  }
+  },
+  {
+    "code": "loud",
+      "type": "negative",
+	  "attributes": {
+		  "animalSeekingRange": 0.35
+		  }
+  },
+  {
+    "code": "thunderous",
+      "type": "negative",
+	  "attributes": {
+		  "animalSeekingRange": 0.5
+		  }
+  },
+  {
+    "code": "wellfed",
+      "type": "positive",
+	  "attributes": {
+		  "hungerrate": -0.3
+		  }
+  },
+  {
+    "code": "aescetic fasting",
+      "type": "positive",
+	  "attributes": {
+		  "hungerrate": -0.2
+		  }
+  },
+  {
+    "code": "low metabolism",
+      "type": "positive",
+	  "attributes": {
+		  "hungerrate": -0.1
+		  }
+  },
+  {
+    "code": "high metabolism",
+      "type": "negative",
+	  "attributes": {
+		  "hungerrate": 0.1
+		  }
+  },
+  {
+    "code": "insatiablehunger",
+      "type": "negative",
+	  "attributes": {
+		  "hungerrate": 0.2
+		  }
+  },
+  {
+    "code": "voracious",
+      "type": "negative",
+	  "attributes": {
+		  "hungerrate": 0.35
+		  }
+  },
+  {
+    "code": "bandit",
+      "type": "positive",
+	  "attributes": {
+		  "vesselContentsDropRate": 0.5,
+		  "wholeVesselLootChance": 0.35
+		  }
+  },
+  {
+    "code": "looter",
+      "type": "positive",
+	  "attributes": {
+		  "vesselContentsDropRate": 0.35,
+		  "wholeVesselLootChance": 0.25,
+      "rustyGearDropRate": 0.2
+		  }
+  },
+  {
+    "code": "eye for value",
+      "type": "positive",
+	  "attributes": {
+		  "vesselContentsDropRate": 0.15,
+      "rustyGearDropRate": 0.2
+		  }
+  },
+  {
+    "code": "thief",
+      "type": "positive",
+	  "attributes": {
+		  "vesselContentsDropRate": 0.25,
+		  "wholeVesselLootChance": 0.20
+		  }
+  },
+  {
+    "code": "citizen",
+      "type": "negative",
+	  "attributes": {
+		  "vesselContentsDropRate": -0.15,
+		  "wholeVesselLootChance": -0.12
+		  }
+  },
+  {
+    "code": "malnourished",
+      "type": "negative",
+	  "attributes": {
+		  "meleeWeaponsDamage": -0.15
+		  }
+  },
+  {
+      "code": "burner",
+        "type": "positive",
+        "attributes": {
+            "charcoalPileDropRate": 0.35
+        }
+  },
+  {
+      "code": "fieldhand",
+        "type": "positive",
+        "attributes": {
+            "produceDropRate": 0.3
+        }
+  },
+  {
+      "code": "arborist",
+        "type": "positive",
+        "attributes": {
+            "fruittreeDropRate": 1,
+            "treeseedDropRate": 2
+        }
+  },
+  {
+      "code": "black lung",
+        "type": "negative",
+        "attributes": {
+            "maxhealthExtraPoints": -2.5,
+            "armorWalkSpeedAffectedness": 0.25,
+            "healingeffectiveness": -0.25
+        }
+  },
+  {
+      "code": "experienced hunter",
+        "type": "positive",
+        "attributes": {
+            "animalLootDropRate": 0.2,
+            "animalHarvestingTime": -0.3,
+            "animalSeekingRange": -0.3
+        }
+  },
+  {
+      "code": "reaper",
+        "type": "positive",
+        "attributes": {
+            "forageDropRate": 0.25,
+            "wildCropDropRate": 0.35
+        }
+  },
+  {
+      "code": "forester",
+        "type": "positive",
+        "attributes": {
+            "woodDropRate": 0.1,
+            "stickDropRate": 0.5
+        }
+  },
+  {
+      "code": "packrat",
+        "type": "positive",
+        "attributes": { }
+  },
+  {
+      "code": "composter",
+        "type": "positive",
+        "attributes": { }
+  },
+  {
+      "code": "machinist",
+        "type": "positive",
+        "attributes": { }
+  },
+  {
+      "code": "chivalricheritage",
+        "type": "positive",
+        "attributes": { }
+  },
+  {
+      "code": "makeshift",
+        "type": "positive",
+        "attributes": { }
+  },
+  {
+      "code": "relichunter",
+        "type": "positive",
+        "attributes": { }
+  }
+  
+]
