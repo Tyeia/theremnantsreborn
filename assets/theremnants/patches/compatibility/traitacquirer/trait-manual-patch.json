@@ -1,0 +1,160 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributesByType/*-clockmaker",
+        "value": {
+            "traitdata": {
+                "add": [ "tinkerer", "technical", "machinist" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-woodsman",
+        "value": {
+            "traitdata": {
+                "add": [ "packrat" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-serf",
+        "value": {
+            "traitdata": {
+                "add": [ "composter" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-hedgeknight",
+        "value": {
+            "traitdata": {
+                "add": [ "chivalricheritage" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-wanderer",
+        "value": {
+            "traitdata": {
+                "add": [ "relichunter" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-ironmonger",
+        "value": {
+            "traitdata": {
+                "add": [ "makeshift" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "woodsman",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "serf",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "hedgeknight",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "wanderer",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "ironmonger",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "replace",
+        "path": "/texturesByType/*-malefactor",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-darkolive" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-woodsman",
+        "value": {
+            "cover": { "base": "game:item/lore/rotten-brown" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-serf",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-darkbeige" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-hedgeknight",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-olive" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-wanderer",
+        "value": {
+            "cover": { "base": "game:item/lore/rotten-rust" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*-ironmonger",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-gray" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "remove",
+        "path": "/texturesByType/*",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*",
+        "value": {
+            "all": { "base": "game:item/lore/{type}" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+    }
+
+]
