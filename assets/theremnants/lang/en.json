@@ -199,5 +199,16 @@
     "traitdesc-improviser": "Exclusive Craftable <a href=\"handbooksearch://sling\">Sling</a> Recipe",
     "traitdesc-clothier": "Exclusive Craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">Sewing Kit and Clothing</a>",
     "traitdesc-technical": "-1 Temporal Gear Cost to Repair Translocator",
-    "traitdesc-tinkerer": "Exclusive Craftable <a href=\"handbooksearch://tuning spear\">device</a> to Tame Locusts"
+    "traitdesc-tinkerer": "Exclusive Craftable <a href=\"handbooksearch://tuning spear\">device</a> to Tame Locusts",
+    
+    "traitacquirer:item-trait-manual-book-woodsman": "Backpacking for Dummies",
+    "traitacquirer:manualtype-woodsman": "Contains the knowledge required to make simple backpacks",
+    "traitacquirer:item-trait-manual-book-serf": "Farmer's Almanac",
+    "traitacquirer:manualtype-serf": "Contains the knowledge required to make fertile soil",
+    "traitacquirer:item-trait-manual-book-hedgeknight": "Chivalry of a Knight",
+    "traitacquirer:manualtype-hedgeknight": "Contains the knowledge of a noble Forlorn Hope paladin's arms",
+    "traitacquirer:item-trait-manual-book-wanderer": "A Light in the Dark",
+    "traitacquirer:manualtype-wanderer": "Contains the knowledge required to repair lanterns",
+    "traitacquirer:item-trait-manual-book-ironmonger": "Anarchist's Cookbook",
+    "traitacquirer:manualtype-ironmonger": "Contains the knowledge required to make simple explosives"
     }
