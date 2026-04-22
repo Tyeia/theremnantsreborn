@@ -7,7 +7,7 @@
     "side": "universal",
     "description": "Adds a series of custom flavor classes heavily inspired by the Vintage Story lore. ",
     "dependencies": {
-        "game": "1.21.6"
+        "game": "1.22.0"
     }
 }
   
