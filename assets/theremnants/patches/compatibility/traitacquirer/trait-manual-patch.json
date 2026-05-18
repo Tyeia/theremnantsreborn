@@ -8,7 +8,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
