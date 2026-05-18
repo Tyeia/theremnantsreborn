@@ -8,7 +8,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -19,7 +20,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -30,7 +32,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -41,7 +44,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -52,7 +56,8 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -63,37 +68,43 @@
                 "remove": []
             }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
         "path": "/variantgroups/1/states/-",
         "value": "woodsman",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
         "path": "/variantgroups/1/states/-",
         "value": "serf",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
         "path": "/variantgroups/1/states/-",
         "value": "hedgeknight",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
         "path": "/variantgroups/1/states/-",
         "value": "wanderer",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
         "path": "/variantgroups/1/states/-",
         "value": "ironmonger",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "replace",
@@ -101,7 +112,8 @@
         "value": {
             "cover": { "base": "game:item/lore/normal-darkolive" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -109,7 +121,8 @@
         "value": {
             "cover": { "base": "game:item/lore/rotten-brown" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -117,7 +130,8 @@
         "value": {
             "cover": { "base": "game:item/lore/normal-darkbeige" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -125,7 +139,8 @@
         "value": {
             "cover": { "base": "game:item/lore/normal-olive" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -133,7 +148,8 @@
         "value": {
             "cover": { "base": "game:item/lore/rotten-rust" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -141,12 +157,14 @@
         "value": {
             "cover": { "base": "game:item/lore/normal-gray" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "remove",
         "path": "/texturesByType/*",
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     },
     {
         "op": "add",
@@ -154,7 +172,8 @@
         "value": {
             "all": { "base": "game:item/lore/{type}" }
         },
-        "file": "traitacquirer:itemtypes/utility/trait-manual.json"
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
     }
 
 ]
