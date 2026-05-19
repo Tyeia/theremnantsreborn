@@ -6,5 +6,6 @@
 		"____########__"
 	]],
 	"name": "Estoc Blade",
+	"code": "bladehead-forlorn-short-meteoriciron",
 	"output": { "type": "item", "code": "bladehead-forlorn-short-meteoriciron"}
 }
