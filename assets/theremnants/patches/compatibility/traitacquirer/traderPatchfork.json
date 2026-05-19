@@ -1,6 +1,6 @@
 [
 	{
-		"file": "game:config/tradelists/trader-treasurehunter.json",
+		"file": "game:config/tradelists/trader-buildmaterials.json",
 		"op": "add",
 		"path": "/selling/list/-",
 		"side": "server",
@@ -20,7 +20,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
 	},
 	{
-		"file": "game:config/tradelists/trader-treasurehunter.json",
+		"file": "game:config/tradelists/trader-agriculture.json",
 		"op": "add",
 		"path": "/selling/list/-",
 		"side": "server",
@@ -40,7 +40,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
 	},
 	{
-		"file": "game:config/tradelists/trader-treasurehunter.json",
+		"file": "game:config/tradelists/trader-luxuries.json",
 		"op": "add",
 		"path": "/selling/list/-",
 		"side": "server",
@@ -60,7 +60,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
 	},
 	{
-		"file": "game:config/tradelists/trader-treasurehunter.json",
+		"file": "game:config/tradelists/trader-survivalgoods.json",
 		"op": "add",
 		"path": "/selling/list/-",
 		"side": "server",
@@ -80,7 +80,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
 	},
 	{
-		"file": "game:config/tradelists/trader-treasurehunter.json",
+		"file": "game:config/tradelists/trader-commodities.json",
 		"op": "add",
 		"path": "/selling/list/-",
 		"side": "server",
