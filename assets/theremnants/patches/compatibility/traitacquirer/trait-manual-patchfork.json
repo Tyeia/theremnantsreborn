@@ -4,7 +4,7 @@
         "path": "/attributesByType/*-clockmaker",
         "value": {
             "traitdata": {
-                "add": [ "tinkerer", "technical", "machinist" ],
+                "addmerge": [ "tinkerer", "technical", "machinist" ],
                 "remove": []
             }
         },
@@ -12,11 +12,11 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributesByType/*-woodsman",
         "value": {
             "traitdata": {
-                "add": [ "packrat" ],
+                "addmerge": [ "packrat" ],
                 "remove": []
             }
         },
@@ -24,11 +24,11 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributesByType/*-serf",
         "value": {
             "traitdata": {
-                "add": [ "composter" ],
+                "addmerge": [ "composter" ],
                 "remove": []
             }
         },
@@ -36,11 +36,11 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributesByType/*-hedgeknight",
         "value": {
             "traitdata": {
-                "add": [ "chivalricheritage" ],
+                "addmerge": [ "chivalricheritage" ],
                 "remove": []
             }
         },
@@ -48,11 +48,11 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributesByType/*-wanderer",
         "value": {
             "traitdata": {
-                "add": [ "relichunter" ],
+                "addmerge": [ "relichunter" ],
                 "remove": []
             }
         },
@@ -60,11 +60,11 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/attributesByType/*-ironmonger",
         "value": {
             "traitdata": {
-                "add": [ "makeshift" ],
+                "addmerge": [ "makeshift" ],
                 "remove": []
             }
         },
@@ -72,35 +72,35 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
         "value": "woodsman",
         "file": "traitacquirer:itemtypes/utility/trait-manual.json",
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
         "value": "serf",
         "file": "traitacquirer:itemtypes/utility/trait-manual.json",
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
         "value": "hedgeknight",
         "file": "traitacquirer:itemtypes/utility/trait-manual.json",
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
         "value": "wanderer",
         "file": "traitacquirer:itemtypes/utility/trait-manual.json",
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/variantgroups/1/states/-",
         "value": "ironmonger",
         "file": "traitacquirer:itemtypes/utility/trait-manual.json",
@@ -116,7 +116,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*-woodsman",
         "value": {
             "cover": { "base": "game:item/lore/rotten-brown" }
@@ -125,7 +125,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*-serf",
         "value": {
             "cover": { "base": "game:item/lore/normal-darkbeige" }
@@ -134,7 +134,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*-hedgeknight",
         "value": {
             "cover": { "base": "game:item/lore/normal-olive" }
@@ -143,7 +143,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*-wanderer",
         "value": {
             "cover": { "base": "game:item/lore/rotten-rust" }
@@ -152,7 +152,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*-ironmonger",
         "value": {
             "cover": { "base": "game:item/lore/normal-gray" }
@@ -167,7 +167,7 @@
 		"dependsOn": [ { "modid": "traitacquirermoddedclasses"} ]
     },
     {
-        "op": "add",
+        "op": "addmerge",
         "path": "/texturesByType/*",
         "value": {
             "all": { "base": "game:item/lore/{type}" }

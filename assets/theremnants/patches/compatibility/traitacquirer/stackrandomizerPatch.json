@@ -1,7 +1,7 @@
 [
 	{
 		"file": "game:itemtypes/meta/stackrandomizer.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/attributesByType/*-gear/stacks/-",
 		"side": "server",
 		"value": {
@@ -17,7 +17,7 @@
 	},
 	{
 		"file": "game:itemtypes/meta/stackrandomizer.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/attributesByType/*-gear/stacks/-",
 		"side": "server",
 		"value": {
@@ -33,7 +33,7 @@
 	},
 	{
 		"file": "game:itemtypes/meta/stackrandomizer.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/attributesByType/*-gear/stacks/-",
 		"side": "server",
 		"value": {
@@ -49,7 +49,7 @@
 	},
 	{
 		"file": "game:itemtypes/meta/stackrandomizer.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/attributesByType/*-gear/stacks/-",
 		"side": "server",
 		"value": {
@@ -65,7 +65,7 @@
 	},
 	{
 		"file": "game:itemtypes/meta/stackrandomizer.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/attributesByType/*-gear/stacks/-",
 		"side": "server",
 		"value": {

@@ -1,12 +1,12 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/dropsByType/*-8/1/dropModbyStat",
     "value": "produceDropRate",
     "file": "blocktypes/plant/crop/cassava.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/dropsByType/*-9/1/dropModbyStat",
     "value": "produceDropRate",
     "file": "blocktypes/plant/crop/cassava.json"

@@ -1,7 +1,7 @@
 [
 	{
 		"file": "game:config/tradelists/trader-buildmaterials.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/selling/list/-",
 		"side": "server",
 		"value": {
@@ -21,7 +21,7 @@
 	},
 	{
 		"file": "game:config/tradelists/trader-agriculture.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/selling/list/-",
 		"side": "server",
 		"value": {
@@ -41,7 +41,7 @@
 	},
 	{
 		"file": "game:config/tradelists/trader-luxuries.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/selling/list/-",
 		"side": "server",
 		"value": {
@@ -61,7 +61,7 @@
 	},
 	{
 		"file": "game:config/tradelists/trader-survivalgoods.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/selling/list/-",
 		"side": "server",
 		"value": {
@@ -81,7 +81,7 @@
 	},
 	{
 		"file": "game:config/tradelists/trader-commodities.json",
-		"op": "add",
+		"op": "addmerge",
 		"path": "/selling/list/-",
 		"side": "server",
 		"value": {

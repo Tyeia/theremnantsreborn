@@ -1,16 +1,10 @@
 [
   {
-    "op": "add",
-    "path": "/drops/0/dropModbyStat",
-    "value": "charcoalPileDropRate",
-    "file": "blocktypes/charcoalpile.json"
-  },
-  {
-    "op": "add",
-    "path": "/drops/0/quantity",
-    "value": {
-      "avg": 1
-    },
+    "op": "addmerge",
+    "path": "/drops",
+    "value": [
+      { "type": "item", "code": "charcoal", "quantity": { "avg": 1 }, "dropModbyStat": "charcoalPileDropRate" }
+    ],
     "file": "blocktypes/charcoalpile.json"
   }
 ]

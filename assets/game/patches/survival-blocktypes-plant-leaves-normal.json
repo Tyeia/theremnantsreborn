@@ -1,12 +1,12 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/drops/0/quantityByType/dropModbyStat",
     "value": "treeseedDropRate",
     "file": "blocktypes/plant/leaves/normal.json"
   },
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/drops/1/dropModbyStat",
     "value": "stickDropRate",
     "file": "blocktypes/plant/leaves/normal.json"

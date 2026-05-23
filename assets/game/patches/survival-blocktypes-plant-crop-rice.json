@@ -1,6 +1,6 @@
 [
   {
-    "op": "add",
+    "op": "addmerge",
     "path": "/dropsByType/*-10/1/dropModbyStat",
     "value": "produceDropRate",
     "file": "blocktypes/plant/crop/rice.json"

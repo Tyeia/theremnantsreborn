@@ -1,8 +1,10 @@
 [
   {
-    "op": "add",
-    "path": "/drops/0/dropModbyStat",
-    "value": "woodDropRate",
+    "op": "addmerge",
+    "path": "/drops",
+    "value": [
+      { "type": "block", "code": "log-placed-{wood}-ud", "quantity": { "avg": 1 }, "dropModbyStat": "woodDropRate" }
+    ],
     "file": "blocktypes/wood/woodtyped/log.json"
   }
 ]

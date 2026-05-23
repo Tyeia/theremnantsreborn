@@ -1,7 +1,7 @@
 [
 	{
 		"code": "wanderer",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["self sufficient", "powerful", "aescetic fasting", "pilferer", "relichunter", "slight build", "rushed", "carelessbutcherer"],
 		"gear": [
 			  { "type": "item", "code": "game:clothes-face-survivor"},
@@ -18,7 +18,7 @@
 	},
 	{  
 	    "code": "hedgeknight",
-		"op": "add",
+		"op": "addmerge",
 	    "traits": ["bulwark", "stalwart", "strong", "crusher", "chivalricheritage", "insatiablehunger", "bowshy", "loud" ],
 	    "gear": [	
 		     { "type": "item", "code": "game:clothes-upperbody-lackey-shirt" },
@@ -34,7 +34,7 @@
 	},
 	{  
         "code": "serf",
-		"op": "add",
+		"op": "addmerge",
         "traits": ["fieldhand", "butcher", "arborist", "healthy", "composter", "steady hands", "outdoorsman", "awkward stance" ],
         "gear": [	
            { "type": "item", "code": "game:clothes-upperbody-linen-tunic" },
@@ -48,7 +48,7 @@
     },
 	{
 		  "code": "ironmonger", 
-		"op": "add",
+		"op": "addmerge",
 		  "traits": ["burner", "rock hound", "gear eyed", "strong", "makeshift", "black lung", "insatiablehunger", "heavyhanded"],
 		  "gear": [	
 			   { "type": "item", "code": "game:clothes-upperbodyover-miner" },
@@ -65,7 +65,7 @@
 	},
 	{  
 		  "code": "yeoman",
-		  "op": "add",
+		  "op": "addmerge",
 		  "traits": ["seasoned archer", "quiet", "fleetfooted", "low metabolism", "bowyer", "old soldier", "farsighted", "slight build"],
 		  "gear": [	
 			   { "type": "item", "code": "game:clothes-upperbody-earth-toned-robe" },
@@ -92,7 +92,7 @@
     },
 	{
 		"code": "woodsman",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["experienced hunter", "reaper", "forester", "ranger", "improviser", "farsighted", "outdoorsman", "underweight"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-shepherd-tunic" },
@@ -108,7 +108,7 @@
 	},
 	{
 		"code": "guildsman",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["tailored fit", "low metabolism", "eye for value", "fleetfooted", "clothier", "delicate", "squeamish", "unfit for war" ],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-marketeer" },
@@ -129,7 +129,7 @@
 	},
 	{
 		"code": "malefactor",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["vagabond", "looter", "fleetfooted", "furtive", "packrat", "delicate", "farsighted", "awkward stance" ],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
@@ -144,7 +144,7 @@
 	},
 	{
 		"code": "gearsmith",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["technical", "gearworker", "healthy", "precise", "tinkerer","machinist", "high metabolism", "bowshy", "tinnitus" ],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-linen-tunic" },
@@ -162,7 +162,7 @@
 	},
 	{
 		"code": "blackguard",
-		"op": "add",
+		"op": "addmerge",
 		"traits": ["reaver", "quick step", "hulking", "hardy", "merciless", "voracious", "reckless", "heavyhanded" ],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic"},
