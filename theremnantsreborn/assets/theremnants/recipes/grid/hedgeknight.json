@@ -1,0 +1,14 @@
+[
+    {
+        "ingredientPattern": "B,S,Z",
+        "requiresTrait": "chivalricheritage",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "B": {"type": "item", "code": "bladehead-forlorn-short-meteoriciron" },
+            "S": {"type": "item", "code": "game:stick" },
+            "Z": {"type": "item", "code": "game:metalbit-bismuthbronze", "quantity": 2 }
+        },
+        "output": {"type": "item", "code": "game:blade-forlorn-iron", "quantity": 1 }
+    }
+]

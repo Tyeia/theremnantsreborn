@@ -1,0 +1,18 @@
+[
+    {
+        "ingredientPattern": "H,C,R",
+        "requiresTrait": "machinist",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "H": {"type": "item", "code": "game:hammer-*", "isTool": true },
+            "C": {"type": "item", "code": "game:chisel-*", "isTool": true },
+            "R": {"type": "block", "code": "game:metal-scraps","quantity": 8 }
+        },
+        "output": {
+            "type": "item",
+            "code": "game:gear-rusty",
+            "quantity": 2
+        }
+    }
+]

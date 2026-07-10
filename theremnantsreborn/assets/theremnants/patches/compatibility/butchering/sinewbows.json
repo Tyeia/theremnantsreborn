@@ -1,0 +1,268 @@
+[
+    {
+        "op": "replace",
+        "path": "/1",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 3,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:leather-normal-plain"
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:fat"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/2",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 3,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:leather-normal-plain"
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:resin"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/3",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 3,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:leather-normal-plain"
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:beeswax"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/4",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 4,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:hide-pelt-*",
+                    "allowedVariants": [ "small", "medium" ]
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:fat"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/5",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 4,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:hide-pelt-*",
+                    "allowedVariants": [ "small", "medium" ]
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:resin"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/6",
+        "value": {
+            "ingredientPattern": "_FT,BLT,_FT",
+            "requiresTrait": "bowyer",
+            "recipeGroup": 4,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-long-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 6
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:hide-pelt-*",
+                    "allowedVariants": [ "small", "medium" ]
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:beeswax"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-long",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/7",
+        "value": {
+            "ingredientPattern": "MFT,BLT,MFT",
+            "recipeGroup": 2,
+            "ingredients": {
+                "B": {
+                    "type": "item",
+                    "code": "game:bowstave-recurve-dry"
+                },
+                "T": {
+                    "type": "item",
+                    "code": "sinew-dry",
+                    "quantity": 8
+                },
+                "L": {
+                    "type": "item",
+                    "code": "game:leather-normal-plain"
+                },
+                "F": {
+                    "type": "item",
+                    "code": "game:bone"
+                },
+                "M": {
+                    "type": "item",
+                    "code": "game:bushmeat-raw"
+                }
+            },
+            "width": 3,
+            "height": 3,
+            "output": {
+                "type": "item",
+                "code": "game:bow-recurve",
+                "quantity": 1
+            }
+        },
+        "file": "butchering:recipes/grid/sinewbows",
+        "dependsOn": [ { "modid": "butchering" } ]
+    }
+    
+]

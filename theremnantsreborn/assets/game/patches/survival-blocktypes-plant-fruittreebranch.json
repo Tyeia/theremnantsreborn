@@ -1,0 +1,8 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-branch/0/dropModbyStat",
+    "value": "fruittreeDropRate",
+    "file": "blocktypes/plant/fruittreebranch.json"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/drops",
+    "value": [
+      { "type": "item", "code": "charcoal", "quantity": { "avg": 1 }, "dropModbyStat": "charcoalPileDropRate" }
+    ],
+    "file": "blocktypes/charcoalpile.json"
+  }
+]

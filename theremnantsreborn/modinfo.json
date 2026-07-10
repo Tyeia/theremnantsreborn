@@ -1,0 +1,16 @@
+{
+    "type": "code",
+    "modid": "theremnantsreborn",
+    "name": "The Remnants Reborn",
+    "version": "1.3.0",
+    "authors": [
+        "MrFistycuffs",
+        "Tyeia"
+    ],
+    "side": "universal",
+    "description": "Adds a series of custom flavor classes heavily inspired by the Vintage Story lore. ",
+    "dependencies": {
+        "game": "1.22.0"
+    }
+}
+  

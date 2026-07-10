@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/damageByType/bow-long",
+    "value": 4.5,
+    "file": "itemtypes/tool/bow"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifierByType/bow-long/rangedWeaponsAcc",
+    "value": 0.35,
+    "file": "itemtypes/tool/bow"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifierByType/bow-recurve/rangedWeaponsAcc",
+    "value": 0.25,
+    "file": "itemtypes/tool/bow"
+  }
+]

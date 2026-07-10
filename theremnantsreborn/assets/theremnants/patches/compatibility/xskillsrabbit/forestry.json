@@ -1,0 +1,72 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "wanderer": 0.0 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "hedgeknight": -0.2 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "serf": 0.1 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "ironmonger": 0.1 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "yeoman": 0.1 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "woodsman": 0.25 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "guildsman": -0.1 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/classexpmult",
+        "value": { "gearsmith": -0.1 },
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/classexpmult/blackguard",
+        "value": -0.2,
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    },
+    {
+        "op": "replace",
+        "path": "/classexpmult/malefactor",
+        "value": -0.1,
+        "file": "xskills:skills/forestry",
+        "dependsOn": [ { "modid": "xskillsrabite" } ]
+    }
+]

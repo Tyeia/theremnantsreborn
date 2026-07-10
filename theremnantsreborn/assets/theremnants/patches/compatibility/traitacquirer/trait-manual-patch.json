@@ -1,0 +1,179 @@
+[
+    {
+        "op": "replace",
+        "path": "/attributesByType/*-clockmaker",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "tinkerer", "technical", "machinist" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-woodsman",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "packrat" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-serf",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "composter" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-hedgeknight",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "chivalricheritage" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-wanderer",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "relichunter" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/attributesByType/*-ironmonger",
+        "value": {
+            "traitdata": {
+                "addmerge": [ "makeshift" ],
+                "remove": []
+            }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/1/states/-",
+        "value": "woodsman",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/1/states/-",
+        "value": "serf",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/1/states/-",
+        "value": "hedgeknight",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/1/states/-",
+        "value": "wanderer",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/variantgroups/1/states/-",
+        "value": "ironmonger",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "replace",
+        "path": "/texturesByType/*-malefactor",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-darkolive" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-woodsman",
+        "value": {
+            "cover": { "base": "game:item/lore/rotten-brown" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-serf",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-darkbeige" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-hedgeknight",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-olive" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-wanderer",
+        "value": {
+            "cover": { "base": "game:item/lore/rotten-rust" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*-ironmonger",
+        "value": {
+            "cover": { "base": "game:item/lore/normal-gray" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "remove",
+        "path": "/texturesByType/*",
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    },
+    {
+        "op": "addmerge",
+        "path": "/texturesByType/*",
+        "value": {
+            "all": { "base": "game:item/lore/{type}" }
+        },
+        "file": "traitacquirer:itemtypes/utility/trait-manual.json",
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+    }
+
+]

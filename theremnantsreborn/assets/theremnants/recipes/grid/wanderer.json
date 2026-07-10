@@ -1,0 +1,147 @@
+[
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor1"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor2"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor3"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor8"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor9"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor10"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground1"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor1"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor2"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor3"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor8"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor9"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	},
+	{
+		"ingredientPattern": "QJQ, L ",
+		"requiresTrait": "relichunter",
+		"ingredients": {
+			"Q": { "type": "item", "code": "game:clearquartz", "quantity": 1 },
+			"J": { "type": "block", "code": "game:jonas-lamp", "attributes": {"type": "lightsource/on/lumi-floor10"} },
+			"L": { "type": "block", "code": "game:clutter", "attributes": {"type": "lantern/ground2"} }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "wandererlantern-up"}
+	}
+]
+

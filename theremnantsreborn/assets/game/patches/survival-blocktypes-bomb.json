@@ -1,0 +1,8 @@
+[
+    {
+      "op": "addmerge",
+      "path": "/attributes",
+      "value": {},
+      "file": "game:blocktypes/cloth/bomb.json"
+    }
+  ]
