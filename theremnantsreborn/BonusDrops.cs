@@ -68,7 +68,8 @@ public class PlacedBlockTracker : ModSystem
         //Serf
         BonusDropRegistry.Register("leaves", 1, "arborist", "treeseed");
         //Fruit Tree Grafts
-        //
+        //Ironmonger
+        BonusDropRegistry.Register("charcoalpile", 0.35, "burner", "charcoal");
     }
 
     private void OnSaveGameLoaded()
