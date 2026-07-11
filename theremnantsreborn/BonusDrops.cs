@@ -67,7 +67,7 @@ public class PlacedBlockTracker : ModSystem
         BonusDropRegistry.Register("leaves", 0.5, "forester", "stick");
         //Serf
         BonusDropRegistry.Register("leaves", 1, "arborist", "treeseed");
-        //Fruit Tree Grafts
+        BonusDropRegistry.Register("branch", 1, "arborist", "cutting");
         //Ironmonger
         BonusDropRegistry.Register("charcoalpile", 0.35, "burner", "charcoal");
     }
@@ -132,7 +132,7 @@ public static class Patch_BonusDrops
                 // Find a specific drop (e.g. sticks) within the result set and double just that stack
                 for (int i = 0; i < __result.Length; i++)
                 {
-                    if (__result[i].Collectible?.Code?.Path?.StartsWith(config.DoubleSpecificItem) == true)
+                    if (__result[i].Collectible?.Code?.Path?.Contains(config.DoubleSpecificItem) == true)
                     {
                         __result[i].StackSize *= 2;
                     }
