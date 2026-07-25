@@ -7,6 +7,7 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 
 namespace theremnantsreborn;
 
@@ -56,10 +57,6 @@ public class PlacedBlockTracker : ModSystem
         api.Event.SaveGameLoaded += OnSaveGameLoaded;
         api.Event.GameWorldSave += OnGameWorldSave;
         api.Event.DidPlaceBlock += OnDidPlaceBlock;
-
-        var harmony = new Harmony("theremnantsreborn");
-        harmony.PatchAll();
-
         
         // Register bonus drop rules here
         //Woodsman
@@ -70,6 +67,20 @@ public class PlacedBlockTracker : ModSystem
         BonusDropRegistry.Register("branch", 1, "arborist", "cutting");
         //Ironmonger
         BonusDropRegistry.Register("charcoalpile", 0.35, "burner", "charcoal");
+
+        var harmony = new Harmony("theremnantsreborn");
+        harmony.PatchAll();
+
+        if (IsLoggingModPresent())
+        {
+            var loggingModAsm = AppDomain.CurrentDomain.GetAssemblies()
+                .First(a => a.GetName().Name == "LoggingMod");
+            var targetType = loggingModAsm.GetType("LoggingMod.FellingListener");
+            var targetMethod = AccessTools.Method(targetType, "SpawnTrunk");
+
+            var prefix = new HarmonyMethod(typeof(Patch_BonusFelling), nameof(Patch_BonusFelling.Prefix));
+            harmony.Patch(targetMethod, prefix: prefix);
+        }
     }
 
     private void OnSaveGameLoaded()
@@ -97,7 +108,16 @@ public class PlacedBlockTracker : ModSystem
     public void MarkPlaced(BlockPos pos) => placedPositions.Add(pos.ToString());
     public bool WasPlayerPlaced(BlockPos pos) => placedPositions.Contains(pos.ToString());
     public void ClearPosition(BlockPos pos) => placedPositions.Remove(pos.ToString());
+
+    // For checking if the LoggingMod is present, so we can patch its felling method for bonus drops
+    static bool IsLoggingModPresent()
+    {
+        return AppDomain.CurrentDomain.GetAssemblies()
+            .Any(a => a.GetName().Name == "LoggingMod");
+    }
 }
+
+
 
 [HarmonyPatch(typeof(Block), "GetDrops")]
 public static class Patch_BonusDrops
@@ -157,6 +177,51 @@ public static class Patch_BonusDrops
         string? classCode = byPlayer.Entity?.WatchedAttributes?.GetString("characterClass");
         if (string.IsNullOrEmpty(classCode)) return false;
 
+        var charClass = charSys.characterClasses.Find(c => c.Code == classCode);
+        return charClass?.Traits?.Contains(traitCode) ?? false;
+    }
+}
+
+public static class Patch_BonusFelling
+{
+    static readonly Random rand = new Random();
+
+    public static void Prefix(IServerPlayer byPlayer, string woodType,
+        ref int logCount, ref int branchCount, ref int resinLogCount)
+    {
+        if (byPlayer == null) return;
+
+        var configs = BonusDropRegistry.GetConfigsFor(new Block() { Code = new AssetLocation("log") }).Union(
+                      BonusDropRegistry.GetConfigsFor(new Block() { Code = new AssetLocation("leaves") })).ToList();
+        if (configs == null || configs.Count == 0) return;
+
+        foreach (var config in configs)
+        {
+            if (!string.IsNullOrEmpty(config.RequiredTrait) &&
+                !HasTrait(byPlayer, config.RequiredTrait))
+                continue;
+            var chance = rand.NextDouble();
+
+            if (chance >= config.Chance) continue;
+
+            //Multiply log and stick counts by chance to approximately give the amount we would get in vanilla
+            if(chance < config.Chance && config.DoubleSpecificItem == "stick")
+            {
+                branchCount = (int)Math.Ceiling(branchCount*(config.Chance+1));   // sticks
+            }
+            else if(chance < config.Chance && config.CodePathContains == "log")
+            {
+                logCount = (int)Math.Ceiling(logCount*(config.Chance+1)); // logs
+            }
+        }
+    }
+
+    static bool HasTrait(IServerPlayer byPlayer, string traitCode)
+    {
+        var charSys = byPlayer.Entity?.World?.Api?.ModLoader?.GetModSystem<CharacterSystem>();
+        if (charSys == null) return false;
+        string classCode = byPlayer.Entity?.WatchedAttributes?.GetString("characterClass");
+        if (string.IsNullOrEmpty(classCode)) return false;
         var charClass = charSys.characterClasses.Find(c => c.Code == classCode);
         return charClass?.Traits?.Contains(traitCode) ?? false;
     }
