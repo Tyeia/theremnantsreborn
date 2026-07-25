@@ -140,12 +140,10 @@ public static class Patch_BonusDrops
             }
             else
             {
-                // Default behavior: append a full extra copy of the primary drop
-                var extraStack = __result[0].Clone();
-                var newResult = new ItemStack[__result.Length + 1];
-                Array.Copy(__result, newResult, __result.Length);
-                newResult[__result.Length] = extraStack;
-                __result = newResult;
+                for(int i = 0; i < __result.Length; i++)
+                {
+                    __result[i].StackSize *= 2;
+                }
             }
         }
     }
