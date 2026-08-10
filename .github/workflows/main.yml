@@ -61,6 +61,13 @@ jobs:
           mkdir -p vs
           tar -xzf vs.tar.gz -C vs
 
+      - name: DEBUG - list extracted VS folder structure
+        run: |
+          echo "--- top level ---"
+          ls -la vs
+          echo "--- full tree (depth 3) ---"
+          find vs -maxdepth 3
+
       - name: Restore dependencies
         run: dotnet restore
         env:
