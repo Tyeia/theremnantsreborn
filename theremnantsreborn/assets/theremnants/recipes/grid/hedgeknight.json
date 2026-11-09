@@ -9,6 +9,6 @@
             "S": {"type": "item", "code": "game:stick" },
             "Z": {"type": "item", "code": "game:metalbit-bismuthbronze", "quantity": 2 }
         },
-        "output": {"type": "item", "code": "game:blade-forlorn-iron", "quantity": 1 }
+        "output": {"type": "item", "code": "game:blade-forlorn-iron", "quantity": 1 , "recipeAttributes": { "applyquenchablebuffs": true  }  }
     }
 ]
