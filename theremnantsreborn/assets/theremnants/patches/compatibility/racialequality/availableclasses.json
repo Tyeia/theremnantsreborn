@@ -1,0 +1,42 @@
+[
+  //dwarf
+  {
+    "op": "add",
+    "path": "/dwarf/AvailableClasses/-",
+    "value": [ "ironmonger", "wanderer", "hedgeknight", "serf", "woodsman", "malefactor" ],
+    "file": "racialequality:config/customplayermodels/dwarf-char.json",
+    "dependsOn": [{"racialEquality": true}]
+  },
+  //elf
+  {
+    "op": "add",
+    "path": "/elf/AvailableClasses/-",
+    "value": [ "yeoman", "wanderer", "hedgeknight", "serf", "woodsman", "malefactor" ],
+    "file": "racialequality:config/customplayermodels/elf-char.json",
+    "dependsOn": [{"racialEquality": true}]
+  },
+  //goblin
+  {
+    "op": "add",
+    "path": "/goblin/AvailableClasses/-",
+    "value": [ "gearsmith", "wanderer", "hedgeknight", "serf", "woodsman", "malefactor" ],
+    "file": "racialequality:config/customplayermodels/goblin-char.json",
+    "dependsOn": [{"racialEquality": true}]
+  },
+  //human
+  {
+    "op": "add",
+    "path": "/human/AvailableClasses/-",
+    "value": [ "guildsman", "wanderer", "hedgeknight", "serf", "woodsman", "malefactor" ],
+    "file": "racialequality:config/customplayermodels/human-char.json",
+    "dependsOn": [{"racialEquality": true}]
+  },
+  //ork
+  {
+    "op": "add",
+    "path": "/ork/AvailableClasses/-",
+    "value": [ "blackguard", "wanderer", "hedgeknight", "serf", "woodsman", "malefactor" ],
+    "file": "racialequality:config/customplayermodels/ork-char.json",
+    "dependsOn": [{"racialEquality": true}]
+  },
+]

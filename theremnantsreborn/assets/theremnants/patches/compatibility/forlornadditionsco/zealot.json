@@ -1,0 +1,9 @@
+[
+    {
+        "file": "forlornadditionsco:recipes/grid/forlornzealot.json",
+        "op": "addmerge",
+        "path": "/0/requiresTrait",
+        "value": "chivalricheritage",
+        "dependsOn": [ { "modid": "forlornadditionsco" } ]
+    }
+]

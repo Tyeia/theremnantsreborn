@@ -1,8 +1,0 @@
-[
-  {
-    "op": "add",
-    "path": "/dropsByType/*-9/1/dropModbyStat",
-    "value": "produceDropRate",
-    "file": "blocktypes/plant/crop/spelt.json"
-  }
-]

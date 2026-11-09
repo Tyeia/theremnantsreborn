@@ -1,0 +1,82 @@
+[
+	{
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"op": "addmerge",
+		"path": "/attributesByType/*-gear/stacks/-",
+		"side": "server",
+		"value": {
+				"code": "traitacquirer:trait-manual-book-woodsman",
+				"type": "item",
+				"quantity": {
+					"min": 1,
+					"max": 1
+				},
+				"chance": 30
+			},
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+	},
+	{
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"op": "addmerge",
+		"path": "/attributesByType/*-gear/stacks/-",
+		"side": "server",
+		"value": {
+				"code": "traitacquirer:trait-manual-book-serf",
+				"type": "item",
+				"quantity": {
+					"min": 1,
+					"max": 1
+				},
+				"chance": 30
+			},
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+	},
+	{
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"op": "addmerge",
+		"path": "/attributesByType/*-gear/stacks/-",
+		"side": "server",
+		"value": {
+				"code": "traitacquirer:trait-manual-book-hedgeknight",
+				"type": "item",
+				"quantity": {
+					"min": 1,
+					"max": 1
+				},
+				"chance": 30
+			},
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+	},
+	{
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"op": "addmerge",
+		"path": "/attributesByType/*-gear/stacks/-",
+		"side": "server",
+		"value": {
+				"code": "traitacquirer:trait-manual-book-wanderer",
+				"type": "item",
+				"quantity": {
+					"min": 1,
+					"max": 1
+				},
+				"chance": 30
+			},
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+	},
+	{
+		"file": "game:itemtypes/meta/stackrandomizer.json",
+		"op": "addmerge",
+		"path": "/attributesByType/*-gear/stacks/-",
+		"side": "server",
+		"value": {
+				"code": "traitacquirer:trait-manual-book-ironmonger",
+				"type": "item",
+				"quantity": {
+					"min": 1,
+					"max": 1
+				},
+				"chance": 30
+			},
+		"dependsOn": [ { "modid": "traitacquirer"} ]
+	}
+]
