@@ -1,8 +1,8 @@
 {
     "item-wickerpack": "Wicker Basket Pack",
     "itemdesc-wickerpack": "<font color=\"#99c9f9\"><i>Woven of long grass and reeds, this humble pack is a reminder of a truth in this world now. Adapt, or die.</i></font><br>",
-    "item-bladehead-forlorn-short-meteoriciron": "Forlorn Hope Estoc Blade",
-    "itemdesc-bladehead-forlorn-short-meteoriciron": "<font color=\"#99c9f9\"><i>A shard of the heavens, made to pierce the darkness.</i></font><br>",
+    "item-bladehead-forlorn-short*": "Forlorn Hope Estoc Blade",
+    "itemdesc-bladehead-forlorn-short*": "<font color=\"#99c9f9\"><i>A shard of the heavens, made to pierce the darkness.</i></font><br>",
     "block-wandererlantern-up": "Recovered Lantern",
     "blockdesc-wandererlantern-up": "<font color=\"#99c9f9\"><i>The crystal inside thrums with energy, its light harsh and unyielding, but it holds the shadows at bay, for now.</i></font><br>",
     "block-ironbomb-ore": "Makeshift Bomb",
