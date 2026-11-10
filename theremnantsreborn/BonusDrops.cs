@@ -65,6 +65,7 @@ public class PlacedBlockTracker : ModSystem
         //Serf
         BonusDropRegistry.Register("leaves", 1, "arborist", "treeseed");
         BonusDropRegistry.Register("branch", 1, "arborist", "cutting");
+        BonusDropRegistry.Register("fruitingbush", 0.30, "fieldhand", "cutting");
         //Ironmonger
         BonusDropRegistry.Register("charcoalpile", 0.35, "burner", "charcoal");
 
@@ -164,6 +165,55 @@ public static class Patch_BonusDrops
                 {
                     __result[i].StackSize *= 2;
                 }
+            }
+        }
+    }
+
+    static bool HasTrait(IPlayer byPlayer, IWorldAccessor world, string traitCode)
+    {
+        var charSys = world.Api.ModLoader.GetModSystem<CharacterSystem>();
+        if (charSys == null) return false;
+        if (byPlayer?.Entity?.WatchedAttributes == null) return false;
+
+        string? classCode = byPlayer.Entity?.WatchedAttributes?.GetString("characterClass");
+        if (string.IsNullOrEmpty(classCode)) return false;
+
+        var charClass = charSys.characterClasses.Find(c => c.Code == classCode);
+        return charClass?.Traits?.Contains(traitCode) ?? false;
+    }
+}
+
+[HarmonyPatch(typeof(BEBehaviorFruitingBush), "SetHarvested")]
+public static class Patch_BonusBushHarvest
+{
+    static readonly Random rand = new Random();
+
+    static void Prefix(BEBehaviorFruitingBush __instance, IPlayer byPlayer, float dropQuantityMultiplier)
+    {
+        var api = byPlayer?.Entity?.World?.Api;
+        var Block = __instance.Block;
+        var configs = BonusDropRegistry.GetConfigsFor(__instance.Block);
+        if (configs.Count == 0) return;
+
+        if (byPlayer == null) return;
+
+        foreach(var config in configs)
+        {
+            if (!string.IsNullOrEmpty(config.RequiredTrait) && !HasTrait(byPlayer, byPlayer.Entity.World, config.RequiredTrait))
+                continue;
+            if(!string.IsNullOrEmpty(config.DoubleSpecificItem) && config.DoubleSpecificItem != "cutting")
+                continue;
+
+            if (rand.NextDouble() >= config.Chance) continue;
+
+            var block = api.World.GetBlock(AssetLocation.Create(Block.Attributes["cuttingBlockCode"].AsString(), Block.Code.Domain));
+            var cuttingStack = new ItemStack(block);
+
+            cuttingStack.Attributes.SetString("traits", string.Join(",", __instance.BState.Traits));
+
+            if (!byPlayer.InventoryManager.TryGiveItemstack(cuttingStack))
+            {
+                api.World.SpawnItemEntity(cuttingStack, __instance.Pos.ToVec3d().Add(0.5, 0.5, 0.5));
             }
         }
     }
